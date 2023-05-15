@@ -4,7 +4,10 @@
   "description": "Searchfor shirts",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "para": "mocha --no-timeouts --parallel",
+    "report": "mocha --no-timeouts --reporter mochawesome",
+    "parareport": "mocha --no-timeouts --parallel --reporter mochawesome --require mochawesome/register"
   },
   "keywords": [],
   "author": "",
